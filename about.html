@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Satyam Sharma Coaching</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@400;700&family=Dancing+Script:wght@700&family=Playfair+Display:wght@700&family=Raleway:wght@400;600&family=Lora:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar (Same as index.html) -->
+     <nav id="myHeader" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.svg" alt="Satyam Coaching Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <select class="lang-toggle" id="langToggle">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title" data-lang="en">About Sir Satyam Sharma</h2>
+            <h2 class="section-title" data-lang="hi" style="display: none;">सर सत्यं शर्मा के बारे में</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="file:///C:/Users/hp/OneDrive/Desktop/Satyam%20Sir/Satyam%20Sir%20Im..jpeg" alt="Sir Satyam Sharma" class="img-fluid rounded-circle mb-3" style="border: 10px solid #007BFF; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);">
+                </div>
+                <div class="col-md-8">
+                    <p class="lead" data-lang="en" style="font-family: 'Lora', serif;">Sir Satyam Sharma, M.Com, B.Com, is a dedicated educator with a passion for transforming commerce education. Launching in 2025, his coaching classes aim to empower CBSE 11th and 12th students in Accountancy, Economics, and Business Studies.</p>
+                    <p class="lead" data-lang="hi" style="display: none; font-family: 'Lora', serif;">सर सत्यं शर्मा, एम.कॉम, बी.कॉम, एक समर्पित शिक्षक हैं जो वाणिज्य शिक्षा को बदलने के लिए उत्साहित हैं। 2025 में लॉन्च हो रहे उनके कोचिंग क्लासेस का लक्ष्य सीबीएसई 11वीं और 12वीं के छात्रों को लेखांकन, अर्थशास्त्र और व्यवसाय अध्ययन में सशक्त बनाना है।</p>
+                    <p data-lang="en" style="font-family: 'Raleway', sans-serif;">With a focus on clarity, practical learning, and individual attention, Sir Satyam ensures every student achieves academic excellence.</p>
+                    <p data-lang="hi" style="display: none; font-family: 'Raleway', sans-serif;">स्पष्टता, व्यावहारिक शिक्षा और व्यक्तिगत ध्यान पर ध्यान केंद्रित करते हुए, सर सत्यं यह सुनिश्चित करते हैं कि प्रत्येक छात्र शैक्षणिक उत्कृष्टता प्राप्त करे।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+   <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="montserrat">Satyam Ediz</h3>
+                <p class="roboto">Creative Peace Maker</p>
+            <p data-lang="hi" style="display: none;" class="footer-text">सत्यं द्वारा डिज़ाइन किया गया</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="#" data-lang="en">Privacy Policy</a>
+                <a href="#" data-lang="hi" style="display: none;">गोपनीयता नीति</a>
+                <span>|</span>
+                <a href="#" data-lang="en">Terms of Service</a>
+                <a href="#" data-lang="hi" style="display: none;">सेवा की शर्तें</a>
+            </div> <p class="footer-bottom roboto">© 2025 Me Satyam - Satyam Sharma coaching. All Rights Reserved.</p>
+    </footer>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-to-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

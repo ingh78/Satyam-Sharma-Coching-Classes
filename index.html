@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Sharma Coaching Classes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@400;700&family=Dancing+Script:wght@700&family=Playfair+Display:wght@700&family=Raleway:wght@400;600&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head> 
+<script>
+  window.addEventListener("scroll", function () {
+    const header = document.getElementById("myHeader");
+    if (window.scrollY > 50) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  });
+</script>
+<body>
+    <!-- Navbar -->
+    <nav id="myHeader" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.svg" alt="Satyam Coaching Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <select class="lang-toggle" id="langToggle">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section parallax">
+        <div class="hero-content">
+            <h1 data-lang="en">Satyam Sharma Coaching Classes</h1>
+            <h1 data-lang="hi" style="display: none;">सत्यं शर्मा कोचिंग क्लासेस</h1>
+            <p data-lang="en">Launch 2025: Leading Commerce Education for CBSE 11th & 12th Success</p>
+            <p data-lang="hi" style="display: none;">लॉन्च 2025: सीबीएसई 11वीं और 12वीं की सफलता के लिए अग्रणी वाणिज्य शिक्षा</p>
+            <a href="courses.html" class="btn btn-cta">Join the Future</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title" data-lang="en">About Our Vision</h2>
+            <h2 class="section-title" data-lang="hi" style="display: none;">हमारा दृष्टिकोण</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="file:///C:/Users/hp/OneDrive/Desktop/Satyam%20Sir/Satyam%20Sir%20Im..jpeg" alt="Sir Satyam Sharma" class="img-fluid rounded-circle mb-3" style="border: 10px solid #fbff00; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);">
+                </div>
+                <div class="col-md-8">
+                    <p class="lead" data-lang="en" style="font-family: 'Lora', serif;">Led by Sir Satyam Sharma, M.Com, B.Com, our coaching classes are set to redefine commerce education in 2025. With a focus on Accountancy, Economics, and Business Studies, we empower CBSE 11th and 12th students to achieve academic excellence.</p>
+                    <p class="lead" data-lang="hi" style="display: none; font-family: 'Lora', serif;">सर सत्यं शर्मा, एम.कॉम, बी.कॉम के नेतृत्व में, हमारे कोचिंग क्लासेस 2025 में वाणिज्य शिक्षा को फिर से परिभाषित करने के लिए तैयार हैं। लेखांकन, अर्थशास्त्र और व्यवसाय अध्ययन पर ध्यान केंद्रित करते हुए, हम सीबीएसई 11वीं और 12वीं के छात्रों को शैक्षणिक उत्कृष्टता प्राप्त करने के लिए सशक्त बनाते हैं।</p>
+                    <p data-lang="en" style="font-family: 'Raleway', sans-serif;">Our mission is to provide personalized learning, innovative teaching methods, and a supportive environment to ensure every student thrives.</p>
+                    <p data-lang="hi" style="display: none; font-family: 'Raleway', sans-serif;">हमारा मिशन वैयक्तिक शिक्षा, नवीन शिक्षण विधियों और एक सहायक वातावरण प्रदान करना है ताकि प्रत्येक छात्र उत्कृष्ट प्रदर्शन कर सके।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title" data-lang="en">Our Courses</h2>
+            <h2 class="section-title" data-lang="hi" style="display: none;">हमारे पाठ्यक्रम</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card fade-in">
+                        <div class="card-body text-center">
+                            <i class="fas fa-calculator fa-3x mb-3"></i>
+                            <h5 class="card-title" data-lang="en">Accountancy</h5>
+                            <h5 class="card-title" data-lang="hi" style="display: none;">लेखांकन</h5>
+                            <p class="card-text" data-lang="en">Master financial accounting with expert guidance for CBSE 11th & 12th.</p>
+                            <p class="card-text" data-lang="hi" style="display: none;">सीबीएसई 11वीं और 12वीं के लिए विशेषज्ञ मार्गदर्शन के साथ वित्तीय लेखांकन में महारत हासिल करें।</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card fade-in">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chart-line fa-3x mb-3"></i>
+                            <h5 class="card-title" data-lang="en">Economics</h5>
+                            <h5 class="card-title" data-lang="hi" style="display: none;">अर्थशास्त्र</h5>
+                            <p class="card-text" data-lang="en">Understand economic concepts with clarity and excel in exams.</p>
+                            <p class="card-text" data-lang="hi" style="display: none;">आर्थिक अवधारणाओं को स्पष्टता के साथ समझें और परीक्षा में उत्कृष्टता प्राप्त करें।</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card fade-in">
+                        <div class="card-body text-center">
+                            <i class="fas fa-briefcase fa-3x mb-3"></i>
+                            <h5 class="card-title" data-lang="en">Business Studies</h5>
+                            <h5 class="card-title" data-lang="hi" style="display: none;">व्यवसाय अध्ययन</h5>
+                            <p class="card-text" data-lang="en">Learn business management principles with practical insights.</p>
+                            <p class="card-text" data-lang="hi" style="display: none;">व्यावहारिक अंतर्दृष्टि के साथ व्यवसाय प्रबंधन सिद्धांत सीखें।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title" data-lang="en">Our Vision for 2025</h2>
+            <h2 class="section-title" data-lang="hi" style="display: none;">2025 के लिए हमारा दृष्टिकोण</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="portfolio-card fade-in">
+                        <img src="https://source.unsplash.com/random/400x200/?education,future" alt="Launch 2025">
+                        <div class="overlay">
+                            <p data-lang="en">Launching in 2025: A New Era of Commerce Education</p>
+                            <p data-lang="hi" style="display: none;">2025 में लॉन्च: वाणिज्य शिक्षा का नया युग</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-card fade-in">
+                        <img src="https://source.unsplash.com/random/400x200/?teacher" alt="Expert Faculty">
+                        <div class="overlay">
+                            <p data-lang="en">Expert Faculty Led by Sir Satyam Sharma</p>
+                            <p data-lang="hi" style="display: none;">सर सत्यं शर्मा के नेतृत्व में विशेषज्ञ संकाय</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-card fade-in">
+                        <img src="https://source.unsplash.com/random/400x200/?success" alt="Student Success">
+                        <div class="overlay">
+                            <p data-lang="en">Empowering Students for CBSE Success</p>
+                            <p data-lang="hi" style="display: none;">सीबीएसई सफलता के लिए छात्रों को सशक्त बनाना</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="montserrat">Satyam Ediz</h3>
+                <p class="roboto">Creative Peace Maker</p>
+            <p data-lang="hi" style="display: none;" class="footer-text">सत्यं द्वारा डिज़ाइन किया गया</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="#" data-lang="en">Privacy Policy</a>
+                <a href="#" data-lang="hi" style="display: none;">गोपनीयता नीति</a>
+                <span>|</span>
+                <a href="#" data-lang="en">Terms of Service</a>
+                <a href="#" data-lang="hi" style="display: none;">सेवा की शर्तें</a>
+            </div> <p class="footer-bottom roboto">© 2025 Me Satyam - Satyam Sharma coaching. All Rights Reserved.</p>
+    </footer>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-to-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

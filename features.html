@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Features of Satyam Sharma Coaching Classes for CBSE 11th & 12th">
+    <title>Features - Satyam Sharma Coaching</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+   <nav id="myHeader" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.svg" alt="Satyam Coaching Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="economics.html">Economics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="accountancy.html">Accountancy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="business-studies.htm">Business Studies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <select class="lang-toggle" id="langToggle">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h1 class="section-title" data-lang="en">What We Offer</h1>
+            <h1 class="section-title" data-lang="hi" style="display: none;">हम क्या प्रदान करते हैं</h1>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3 data-lang="en">Expert Guidance</h3>
+                    <h3 data-lang="hi" style="display: none;">विशेषज्ञ मार्गदर्शन</h3>
+                    <p data-lang="en" style="font-family: 'Open Sans', sans-serif;">Learn from top educators with proven expertise.</p>
+                    <p data-lang="hi" style="display: none; font-family: 'Open Sans', sans-serif;">सिद्ध विशेषज्ञता वाले शीर्ष शिक्षकों से सीखें।</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-laptop"></i>
+                    <h3 data-lang="en">Flexible Learning</h3>
+                    <h3 data-lang="hi" style="display: none;">लचीला सीखना</h3>
+                    <p data-lang="en" style="font-family: 'Open Sans', sans-serif;">Online and offline classes starting July 2025.</p>
+                    <p data-lang="hi" style="display: none; font-family: 'Open Sans', sans-serif;">जुलाई 2025 से ऑनलाइन और ऑफलाइन कक्षाएं।</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3 data-lang="en">Result-Oriented</h3>
+                    <h3 data-lang="hi" style="display: none;">परिणाम-उन्मुख</h3>
+                    <p data-lang="en" style="font-family: 'Open Sans', sans-serif;">Focused training for CBSE exam success.</p>
+                    <p data-lang="hi" style="display: none; font-family: 'Open Sans', sans-serif;">सीबीएसई परीक्षा सफलता के लिए केंद्रित प्रशिक्षण।</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-users"></i>
+                    <h3 data-lang="en">Supportive Community</h3>
+                    <h3 data-lang="hi" style="display: none;">समर्थन करने वाला समुदाय</h3>
+                    <p data-lang="en" style="font-family: 'Open Sans', sans-serif;">Join a network of motivated learners.</p>
+                    <p data-lang="hi" style="display: none; font-family: 'Open Sans', sans-serif;">प्रेरित शिक्षार्थियों के नेटवर्क से जुड़ें।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="montserrat">Satyam Ediz</h3>
+                <p class="roboto">Creative Peace Maker</p>
+            <p data-lang="hi" style="display: none;" class="footer-text">सत्यं द्वारा डिज़ाइन किया गया</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="#" data-lang="en">Privacy Policy</a>
+                <a href="#" data-lang="hi" style="display: none;">गोपनीयता नीति</a>
+                <span>|</span>
+                <a href="#" data-lang="en">Terms of Service</a>
+                <a href="#" data-lang="hi" style="display: none;">सेवा की शर्तें</a>
+            </div> <p class="footer-bottom roboto">© 2025 Me Satyam - Satyam Sharma coaching. All Rights Reserved.</p>
+    </footer>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-to-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
