@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Satyam Sharma Coaching</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@400;700&family=Dancing+Script:wght@700&family=Playfair+Display:wght@700&family=Raleway:wght@400;600&family=Lora:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar (Same as index.html) -->
+     <nav id="myHeader" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.svg" alt="Satyam Coaching Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <select class="lang-toggle" id="langToggle">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title" data-lang="en">Contact Us</h2>
+            <h2 class="section-title" data-lang="hi" style="display: none;">हमसे संपर्क करें</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong data-lang="en">Address:</strong> <span data-lang="en">Behind Kolgawaan Sab Station, Near Santoshi Mata Mandir, Birla Road, Satna, MP 485001</span></p>
+                    <p style="display: none;" data-lang="hi"><strong>पता:</strong> कोलगवां सब स्टेशन के पीछे, संतोषी माता मंदिर के पास, बिरला रोड, सतना, म.प्र. 485001</p>
+                    <p><strong data-lang="en">Phone:</strong> <span data-lang="en">9074373798, 9691981101</span></p>
+                    <p style="display: none;" data-lang="hi"><strong>फोन:</strong> 9074373798, 9691981101</p>
+                    <p><strong data-lang="en">Email:</strong> <span data-lang="en">royalsatyamsharm@gmail.com</span></p>
+                    <p style="display: none;" data-lang="hi"><strong>ईमेल:</strong> royalsatyamsharm@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <form class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" name="name" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-cta">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="mt-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.678453974013!2d80.827144315034!3d24.846615984063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3983b7e5f5f5f5f5%3A0x1234567890abcdef!2sSantoshi%20Mata%20Mandir%2C%20Satna!5e0!3m2!1sen!2sin!4v1634567890123!5m2!1sen!2sin" width="100%" height="400" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+  <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="montserrat">Satyam Ediz</h3>
+                <p class="roboto">Creative Peace Maker</p>
+            <p data-lang="hi" style="display: none;" class="footer-text">सत्यं द्वारा डिज़ाइन किया गया</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="#" data-lang="en">Privacy Policy</a>
+                <a href="#" data-lang="hi" style="display: none;">गोपनीयता नीति</a>
+                <span>|</span>
+                <a href="#" data-lang="en">Terms of Service</a>
+                <a href="#" data-lang="hi" style="display: none;">सेवा की शर्तें</a>
+            </div> <p class="footer-bottom roboto">© 2025 Me Satyam - Satyam Sharma coaching. All Rights Reserved.</p>
+    </footer>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

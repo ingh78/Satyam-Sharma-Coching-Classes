@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doubt Classes - Satyam Sharma Coaching</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@400;700&family=Dancing+Script:wght@700&family=Playfair+Display:wght@700&family=Raleway:wght@400;600&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.svg" alt="Satyam Coaching Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <select class="lang-toggle" id="langToggle">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Doubt Classes Section -->
+    <section id="doubt-classes" class="py-5">
+        <div class="container">
+            <h2 class="section-title" data-lang="en">Doubt Clearing Sessions</h2>
+            <h2 class="section-title" data-lang="hi" style="display: none;">संदेह निवारण सत्र</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="lead" data-lang="en" style="font-family: 'Lora', serif;">Our doubt classes are designed to provide personalized support, ensuring every student's queries in Accountancy, Economics, and Business Studies are resolved with clarity.</p>
+                    <p class="lead" data-lang="hi" style="display: none; font-family: 'Lora', serif;">हमारे संदेह निवारण सत्र व्यक्तिगत सहायता प्रदान करने के लिए डिज़ाइन किए गए हैं, यह सुनिश्चित करते हुए कि लेखांकन, अर्थशास्त्र और व्यवसाय अध्ययन में प्रत्येक छात्र के प्रश्न स्पष्टता के साथ हल किए जाएं।</p>
+                    <ul style="font-family: 'Raleway', sans-serif;">
+                        <li data-lang="en">Weekly live sessions with Sir Satyam Sharma.</li>
+                        <li data-lang="hi" style="display: none;">सर सत्यं शर्मा के साथ साप्ताहिक लाइव सत्र।</li>
+                        <li data-lang="en">One-on-one doubt resolution for complex topics.</li>
+                        <li data-lang="hi" style="display: none;">जटिल विषयों के लिए एक-पर-एक संदेह समाधान।</li>
+                        <li data-lang="en">Interactive Q&A with practical examples.</li>
+                        <li data-lang="hi" style="display: none;">व्यावहारिक उदाहरणों के साथ इंटरैक्टिव प्रश्नोत्तर।</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://source.unsplash.com/random/400x300/?classroom" alt="Doubt Classes" class="img-fluid rounded mb-3" style="box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);">
+                    <a href="contact.html" class="btn btn-cta" data-lang="en">Join Doubt Classes</a>
+                    <a href="contact.html" class="btn btn-cta" data-lang="hi" style="display: none;">डाउट क्लासेस में शामिल हों</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title" data-lang="en">Our Vision for 2025</h2>
+            <h2 class="section-title" data-lang="hi" style="display: none;">2025 के लिए हमारा दृष्टिकोण</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="portfolio-card fade-in">
+                        <img src="https://source.unsplash.com/random/400x200/?education,future" alt="Launch 2025">
+                        <div class="overlay">
+                            <p data-lang="en">Launching in 2025: A New Era of Commerce Education</p>
+                            <p data-lang="hi" style="display: none;">2025 में लॉन्च: वाणिज्य शिक्षा का नया युग</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-card fade-in">
+                        <img src="https://source.unsplash.com/random/400x200/?teacher" alt="Expert Faculty">
+                        <div class="overlay">
+                            <p data-lang="en">Expert Faculty Led by Sir Satyam Sharma</p>
+                            <p data-lang="hi" style="display: none;">सर सत्यं शर्मा के नेतृत्व में विशेषज्ञ संकाय</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-card fade-in">
+                        <img src="https://source.unsplash.com/random/400x200/?success" alt="Student Success">
+                        <div class="overlay">
+                            <p data-lang="en">Empowering Students for CBSE Success</p>
+                            <p data-lang="hi" style="display: none;">सीबीएसई सफलता के लिए छात्रों को सशक्त बनाना</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="montserrat">Satyam Ediz</h3>
+                <p class="roboto">Creative Peace Maker</p>
+            <p data-lang="hi" style="display: none;" class="footer-text">सत्यं द्वारा डिज़ाइन किया गया</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="#" data-lang="en">Privacy Policy</a>
+                <a href="#" data-lang="hi" style="display: none;">गोपनीयता नीति</a>
+                <span>|</span>
+                <a href="#" data-lang="en">Terms of Service</a>
+                <a href="#" data-lang="hi" style="display: none;">सेवा की शर्तें</a>
+            </div> <p class="footer-bottom roboto">© 2025 Me Satyam - Satyam Sharma coaching. All Rights Reserved.</p>
+    </footer>
+        </div>
+    </footer>
+
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-to-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
